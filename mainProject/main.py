@@ -13,8 +13,8 @@ from ctypes import wintypes
 #
 # login_data_path =os.path.expanduser(os.path.join(
 #     os.environ['LOCALAPPDATA'], r'Google\Chrome\User Data\Default\Login Data'))
-local_state_path = r"C:\Users\123\AppData\Local\Lenovo\SLBrowser\User Data\Local State"
-login_data_path = r"C:\Users\123\AppData\Local\Lenovo\SLBrowser\User Data\Default\Login Data"
+local_state_path = r"C:\Users\123\AppData\Local\Lenovo\SLBrowser\User Data\Local State"  # TODO
+login_data_path = r"C:\Users\123\AppData\Local\Lenovo\SLBrowser\User Data\Default\Login Data"  # TODO
 
 
 # print(login_data_path)
