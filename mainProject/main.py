@@ -66,9 +66,9 @@ def getKey():
     return key
 
 
-def aes_decrypt(key, iv, data, tag=None, aad=None):
+def aes_decrypt(key, iv, data):
     cipher = AES_GCM.get_cipher(key)
-    return AES_GCM.decrypt(cipher, data, iv, tag, aad)
+    return AES_GCM.decrypt(cipher, data, iv)
 
 
 def query_logindata(url):
